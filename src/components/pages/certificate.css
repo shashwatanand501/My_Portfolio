@@ -1,0 +1,43 @@
+
+  .first_div_c{
+    background-size:cover;
+    background-image: url('../image/bg.jpg') ;
+    background-color:rgba(0, 0, 0, 0.308);
+    align-items: center;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    display: table-cell;
+    vertical-align: middle;
+    right: 0px;
+   
+  }
+
+  
+  .skill{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .cards_about {
+      padding: 4rem;
+    }
+     
+  
+  .cards__container_about {
+    padding-top: 10;
+      background-color: rgba(0, 0, 0, 0);
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      
+    }
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Mountains+of+Christmas&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  
+  

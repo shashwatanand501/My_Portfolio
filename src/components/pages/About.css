@@ -1,0 +1,104 @@
+.videoq{
+  background-color: black;
+  object-fit:contain;
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.header{
+
+  color:white; 
+  font-family: 'Press Start 2P', cursive;
+  position: fixed;
+
+}
+.first_div{
+  background-size:cover;
+  background-image: url('../image/bg.jpg') ;
+    background-color:rgba(0, 0, 0, 0.308);
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    display: table-cell;
+    vertical-align: middle;
+    right: 0px;
+    left: 0px;
+}
+
+.second_div{
+    width: 100%;
+    height: 100%;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.name{
+    color: rgb(76, 127, 202);
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000,1px -1px 0 #000;	
+    position:absolute; 
+    font-size: 300%;
+    font-family: 'Monoton';
+}
+.about{
+    font-size: 180%;
+    color: white;
+}
+.third_div{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.068);
+  object-fit: contain;
+}
+.h2{
+    color: rgb(8, 8, 8);
+    align-content: center;
+    padding-top: 10;
+}
+.form{
+ padding-left:5% ;
+}
+.skill{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.skill_1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+.cards_about {
+    padding: 4rem;
+  }
+   
+
+.cards__container_about {
+  padding-top: 10;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
